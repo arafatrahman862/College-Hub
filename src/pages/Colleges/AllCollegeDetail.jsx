@@ -7,7 +7,7 @@ import '@smastrom/react-rating/style.css'
 const AllCollegeDetail = ({ college }) => {
     const { college_name, college_image,rating,no_of_research, admission_dates, events, research_history, sports, _id } = college;
     return (
-        <div data-aos="zoom-in-down">
+        <div >
             <div className="card w-full h-[100%]  bg-base-100  shadow-xl">
                 <figure><img className='w-full p-3 rounded-lg' src={college_image} alt="Shoes" /></figure>
                 <div className="card-body  ">

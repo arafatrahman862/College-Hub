@@ -13,7 +13,7 @@ const Admission = () => {
     },[])
     
     return (
-        <div data-aos="fade-up" className="overflow-x-auto">
+        <div  className="overflow-x-auto">
            <Helmet>
                 <title>College Hub | Admission</title>
             </Helmet>

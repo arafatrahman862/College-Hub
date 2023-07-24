@@ -21,7 +21,7 @@ const Review = () => {
 
 
     return (
-        <div data-aos="zoom-in">
+        <div >
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
 
                 {
